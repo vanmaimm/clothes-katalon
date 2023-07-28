@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_01" time="305.829" tests="8" failures="0" errors="0">
+   <testsuite name="TS_01" tests="8" failures="0" errors="0" time="305.829" skipped="0" timestamp="2023-07-29 02:12:23" hostname="vanmai - 172.16.1.42" id="Test Suites/TS_01">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/vanmai/git/clothes-katalon/Reports/20230729_021219/TS_01/20230729_021219"/>
+         <property name="logFiles" value="/Users/vanmai/git/clothes-katalon/Reports/20230729_021219/TS_01/20230729_021219/execution0.log"/>
+         <property name="attachments" value="/Users/vanmai/git/clothes-katalon/Reports/20230729_021219/TS_01/20230729_021219/1690571754644.png"/>
+         <property name="hostName" value="vanmai - 172.16.1.42"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="54dec47b440f6ee7c9bb74372bf91bc9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=USE_SYSTEM, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="46.872" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2023-07-29 02:12:24 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2023-07-29 02:12:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-29 02:12:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-29 02:12:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-29 02:12:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-29 02:12:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-29 02:12:31 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-29 02:12:31 - [TEST_STEP][PASSED] - navigateToUrl("https://crane-brothers.com/"): Navigate to 'https://crane-brothers.com/' successfully
+
+2023-07-29 02:12:34 - [MESSAGE][PASSED] - Navigate to 'https://crane-brothers.com/' successfully
+
+2023-07-29 02:12:34 - [TEST_STEP][PASSED] - click(findTestObject("Menu_Account")): Object: 'Object Repository/Menu_Account' is clicked on
+
+2023-07-29 02:12:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_Account' is clicked on
+
+2023-07-29 02:12:52 - [TEST_STEP][PASSED] - setText(findTestObject("email_login"), "miancloud@gmail.com"): Text 'miancloud@gmail.com' is set on object 'Object Repository/email_login'
+
+2023-07-29 02:13:06 - [MESSAGE][PASSED] - Text 'miancloud@gmail.com' is set on object 'Object Repository/email_login'
+
+2023-07-29 02:13:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("password_login"), "y99X49qQ/aTapx2EjkpmCw=="): Text ****** has been set on object 'Object Repository/password_login'
+
+2023-07-29 02:13:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/password_login'
+
+2023-07-29 02:13:07 - [TEST_STEP][PASSED] - click(findTestObject("login_button")): Object: 'Object Repository/login_button' is clicked on
+
+2023-07-29 02:13:09 - [MESSAGE][PASSED] - Object: 'Object Repository/login_button' is clicked on
+
+2023-07-29 02:13:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-29 02:13:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout" time="47.538" classname="Test Cases/Logout" status="PASSED">
+         <system-out><![CDATA[2023-07-29 02:13:11 - [TEST_CASE][PASSED] - Test Cases/Logout: Test Cases/Logout
+
+2023-07-29 02:13:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-29 02:13:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-29 02:13:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-29 02:13:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-29 02:13:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-29 02:13:15 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-29 02:13:15 - [TEST_STEP][PASSED] - navigateToUrl("https://crane-brothers.com/"): Navigate to 'https://crane-brothers.com/' successfully
+
+2023-07-29 02:13:18 - [MESSAGE][PASSED] - Navigate to 'https://crane-brothers.com/' successfully
+
+2023-07-29 02:13:18 - [TEST_STEP][PASSED] - click(findTestObject("Menu_Account")): Object: 'Object Repository/Menu_Account' is clicked on
+
+2023-07-29 02:13:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_Account' is clicked on
+
+2023-07-29 02:13:37 - [TEST_STEP][PASSED] - setText(findTestObject("email_login"), "miancloud@gmail.com"): Text 'miancloud@gmail.com' is set on object 'Object Repository/email_login'
+
+2023-07-29 02:13:50 - [MESSAGE][PASSED] - Text 'miancloud@gmail.com' is set on object 'Object Repository/email_login'
+
+2023-07-29 02:13:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("password_login"), "y99X49qQ/aTapx2EjkpmCw=="): Text ****** has been set on object 'Object Repository/password_login'
+
+2023-07-29 02:13:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/password_login'
+
+2023-07-29 02:13:51 - [TEST_STEP][PASSED] - click(findTestObject("login_button")): Object: 'Object Repository/login_button' is clicked on
+
+2023-07-29 02:13:53 - [MESSAGE][PASSED] - Object: 'Object Repository/login_button' is clicked on
+
+2023-07-29 02:13:53 - [TEST_STEP][PASSED] - click(findTestObject("logout_button")): Object: 'Object Repository/logout_button' is clicked on
+
+2023-07-29 02:13:57 - [MESSAGE][PASSED] - Object: 'Object Repository/logout_button' is clicked on
+
+2023-07-29 02:13:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-29 02:13:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cart" time="16.715" classname="Test Cases/Cart" status="PASSED">
+         <system-out><![CDATA[2023-07-29 02:13:58 - [TEST_CASE][PASSED] - Test Cases/Cart: Test Cases/Cart
+
+2023-07-29 02:13:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-29 02:13:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-29 02:13:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-29 02:14:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-29 02:14:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-29 02:14:02 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-29 02:14:02 - [TEST_STEP][PASSED] - navigateToUrl("https://crane-brothers.com/"): Navigate to 'https://crane-brothers.com/' successfully
+
+2023-07-29 02:14:05 - [MESSAGE][PASSED] - Navigate to 'https://crane-brothers.com/' successfully
+
+2023-07-29 02:14:05 - [TEST_STEP][PASSED] - click(findTestObject("menu_cart")): Object: 'Object Repository/menu_cart' is clicked on
+
+2023-07-29 02:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/menu_cart' is clicked on
+
+2023-07-29 02:14:10 - [TEST_STEP][PASSED] - click(findTestObject("keep_shopping")): Object: 'Object Repository/keep_shopping' is clicked on
+
+2023-07-29 02:14:14 - [MESSAGE][PASSED] - Object: 'Object Repository/keep_shopping' is clicked on
+
+2023-07-29 02:14:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-29 02:14:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Channge currency" time="15.179" classname="Test Cases/Channge currency" status="PASSED">
+         <system-out><![CDATA[2023-07-29 02:14:15 - [TEST_CASE][PASSED] - Test Cases/Channge currency: Test Cases/Channge currency
+
+2023-07-29 02:14:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-29 02:14:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-29 02:14:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-29 02:14:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-29 02:14:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-29 02:14:19 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-29 02:14:19 - [TEST_STEP][PASSED] - navigateToUrl("https://crane-brothers.com/"): Navigate to 'https://crane-brothers.com/' successfully
+
+2023-07-29 02:14:23 - [MESSAGE][PASSED] - Navigate to 'https://crane-brothers.com/' successfully
+
+2023-07-29 02:14:23 - [TEST_STEP][PASSED] - click(findTestObject("menu_currency")): Object: 'Object Repository/menu_currency' is clicked on
+
+2023-07-29 02:14:25 - [MESSAGE][PASSED] - Object: 'Object Repository/menu_currency' is clicked on
+
+2023-07-29 02:14:25 - [TEST_STEP][PASSED] - click(findTestObject("usd")): Object: 'Object Repository/usd' is clicked on
+
+2023-07-29 02:14:29 - [MESSAGE][PASSED] - Object: 'Object Repository/usd' is clicked on
+
+2023-07-29 02:14:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-29 02:14:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add a new address" time="40.438" classname="Test Cases/Add a new address" status="PASSED">
+         <system-out><![CDATA[2023-07-29 02:14:30 - [TEST_CASE][PASSED] - Test Cases/Add a new address: Test Cases/Add a new address
+
+2023-07-29 02:14:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-29 02:14:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-29 02:14:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-29 02:14:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-29 02:14:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-29 02:14:35 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-29 02:14:35 - [TEST_STEP][PASSED] - navigateToUrl("https://crane-brothers.com/"): Navigate to 'https://crane-brothers.com/' successfully
+
+2023-07-29 02:14:37 - [MESSAGE][PASSED] - Navigate to 'https://crane-brothers.com/' successfully
+
+2023-07-29 02:14:37 - [TEST_STEP][PASSED] - click(findTestObject("Menu_Account")): Object: 'Object Repository/Menu_Account' is clicked on
+
+2023-07-29 02:14:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Menu_Account' is clicked on
+
+2023-07-29 02:14:57 - [TEST_STEP][PASSED] - setText(findTestObject("email_login"), "miancloud@gmail.com"): Text 'miancloud@gmail.com' is set on object 'Object Repository/email_login'
+
+2023-07-29 02:14:59 - [MESSAGE][PASSED] - Text 'miancloud@gmail.com' is set on object 'Object Repository/email_login'
+
+2023-07-29 02:14:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("password_login"), "y99X49qQ/aTapx2EjkpmCw=="): Text ****** has been set on object 'Object Repository/password_login'
+
+2023-07-29 02:14:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/password_login'
+
+2023-07-29 02:14:59 - [TEST_STEP][PASSED] - click(findTestObject("login_button")): Object: 'Object Repository/login_button' is clicked on
+
+2023-07-29 02:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/login_button' is clicked on
+
+2023-07-29 02:15:01 - [TEST_STEP][PASSED] - click(findTestObject("view_address")): Object: 'Object Repository/view_address' is clicked on
+
+2023-07-29 02:15:04 - [MESSAGE][PASSED] - Object: 'Object Repository/view_address' is clicked on
+
+2023-07-29 02:15:04 - [TEST_STEP][PASSED] - click(findTestObject("Add_new_address")): Object: 'Object Repository/Add_new_address' is clicked on
+
+2023-07-29 02:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Add_new_address' is clicked on
+
+2023-07-29 02:15:06 - [TEST_STEP][PASSED] - setText(findTestObject("first_name"), "test"): Text 'test' is set on object 'Object Repository/first_name'
+
+2023-07-29 02:15:07 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/first_name'
+
+2023-07-29 02:15:07 - [TEST_STEP][PASSED] - setText(findTestObject("lastname"), "test"): Text 'test' is set on object 'Object Repository/lastname'
+
+2023-07-29 02:15:07 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/lastname'
+
+2023-07-29 02:15:07 - [TEST_STEP][PASSED] - click(findTestObject("add_address_button")): Object: 'Object Repository/add_address_button' is clicked on
+
+2023-07-29 02:15:09 - [MESSAGE][PASSED] - Object: 'Object Repository/add_address_button' is clicked on
+
+2023-07-29 02:15:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-29 02:15:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Shop Whats New" time="41.541" classname="Test Cases/Shop Whats New" status="PASSED">
+         <system-out><![CDATA[2023-07-29 02:15:57 - [TEST_CASE][PASSED] - Test Cases/Shop Whats New: Test Cases/Shop Whats New
+
+2023-07-29 02:15:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-29 02:15:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-29 02:15:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-29 02:15:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-29 02:16:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-29 02:16:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-29 02:16:04 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-29 02:16:04 - [TEST_STEP][PASSED] - navigateToUrl("https://crane-brothers.com/"): Navigate to 'https://crane-brothers.com/' successfully
+
+2023-07-29 02:16:06 - [MESSAGE][PASSED] - Navigate to 'https://crane-brothers.com/' successfully
+
+2023-07-29 02:16:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("new_shop"), 2): Scroll to object 'Object Repository/new_shop' successfully
+
+2023-07-29 02:16:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/new_shop' successfully
+
+2023-07-29 02:16:21 - [TEST_STEP][PASSED] - click(findTestObject("new_shop")): Object: 'Object Repository/new_shop' is clicked on
+
+2023-07-29 02:16:31 - [MESSAGE][PASSED] - Object: 'Object Repository/new_shop' is clicked on
+
+2023-07-29 02:16:31 - [TEST_STEP][PASSED] - click(findTestObject("filter")): Object: 'Object Repository/filter' is clicked on
+
+2023-07-29 02:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/filter' is clicked on
+
+2023-07-29 02:16:32 - [TEST_STEP][PASSED] - click(findTestObject("navy")): Object: 'Object Repository/navy' is clicked on
+
+2023-07-29 02:16:33 - [MESSAGE][PASSED] - Object: 'Object Repository/navy' is clicked on
+
+2023-07-29 02:16:33 - [TEST_STEP][PASSED] - click(findTestObject("sort_by")): Object: 'Object Repository/sort_by' is clicked on
+
+2023-07-29 02:16:34 - [MESSAGE][PASSED] - Object: 'Object Repository/sort_by' is clicked on
+
+2023-07-29 02:16:34 - [TEST_STEP][PASSED] - click(findTestObject("best_selling")): Object: 'Object Repository/best_selling' is clicked on
+
+2023-07-29 02:16:36 - [MESSAGE][PASSED] - Object: 'Object Repository/best_selling' is clicked on
+
+2023-07-29 02:16:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-29 02:16:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search" time="16.341" classname="Test Cases/Search" status="PASSED">
+         <system-out><![CDATA[2023-07-29 02:16:38 - [TEST_CASE][PASSED] - Test Cases/Search: Test Cases/Search
+
+2023-07-29 02:16:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-29 02:16:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-29 02:16:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-29 02:16:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-29 02:16:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-29 02:16:42 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-29 02:16:42 - [TEST_STEP][PASSED] - navigateToUrl("https://crane-brothers.com/"): Navigate to 'https://crane-brothers.com/' successfully
+
+2023-07-29 02:16:46 - [MESSAGE][PASSED] - Navigate to 'https://crane-brothers.com/' successfully
+
+2023-07-29 02:16:46 - [TEST_STEP][PASSED] - click(findTestObject("menu_search")): Object: 'Object Repository/menu_search' is clicked on
+
+2023-07-29 02:16:49 - [MESSAGE][PASSED] - Object: 'Object Repository/menu_search' is clicked on
+
+2023-07-29 02:16:49 - [TEST_STEP][PASSED] - setText(findTestObject("search_bar"), "T-shirt"): Text 'T-shirt' is set on object 'Object Repository/search_bar'
+
+2023-07-29 02:16:50 - [MESSAGE][PASSED] - Text 'T-shirt' is set on object 'Object Repository/search_bar'
+
+2023-07-29 02:16:50 - [TEST_STEP][PASSED] - click(findTestObject("search_button")): Object: 'Object Repository/search_button' is clicked on
+
+2023-07-29 02:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/search_button' is clicked on
+
+2023-07-29 02:16:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-29 02:16:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add to cart" time="34.077" classname="Test Cases/Add to cart" status="PASSED">
+         <system-out><![CDATA[2023-07-29 02:16:55 - [TEST_CASE][PASSED] - Test Cases/Add to cart: Test Cases/Add to cart
+
+2023-07-29 02:16:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-29 02:16:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-29 02:16:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-29 02:16:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-29 02:16:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-07-29 02:16:59 - [MESSAGE][PASSED] - Current window maximized
+
+2023-07-29 02:16:59 - [TEST_STEP][PASSED] - navigateToUrl("https://crane-brothers.com/"): Navigate to 'https://crane-brothers.com/' successfully
+
+2023-07-29 02:17:01 - [MESSAGE][PASSED] - Navigate to 'https://crane-brothers.com/' successfully
+
+2023-07-29 02:17:01 - [TEST_STEP][PASSED] - click(findTestObject("menu_search")): Object: 'Object Repository/menu_search' is clicked on
+
+2023-07-29 02:17:15 - [MESSAGE][PASSED] - Object: 'Object Repository/menu_search' is clicked on
+
+2023-07-29 02:17:15 - [TEST_STEP][PASSED] - setText(findTestObject("search_bar"), "T-shirt"): Text 'T-shirt' is set on object 'Object Repository/search_bar'
+
+2023-07-29 02:17:16 - [MESSAGE][PASSED] - Text 'T-shirt' is set on object 'Object Repository/search_bar'
+
+2023-07-29 02:17:16 - [TEST_STEP][PASSED] - click(findTestObject("search_button")): Object: 'Object Repository/search_button' is clicked on
+
+2023-07-29 02:17:20 - [MESSAGE][PASSED] - Object: 'Object Repository/search_button' is clicked on
+
+2023-07-29 02:17:20 - [TEST_STEP][PASSED] - click(findTestObject("first_product")): Object: 'Object Repository/first_product' is clicked on
+
+2023-07-29 02:17:23 - [MESSAGE][PASSED] - Object: 'Object Repository/first_product' is clicked on
+
+2023-07-29 02:17:23 - [TEST_STEP][PASSED] - click(findTestObject("add_to_cart_button")): Object: 'Object Repository/add_to_cart_button' is clicked on
+
+2023-07-29 02:17:27 - [MESSAGE][PASSED] - Object: 'Object Repository/add_to_cart_button' is clicked on
+
+2023-07-29 02:17:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-07-29 02:17:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-29 02:12:23 - [TEST_SUITE][FAILED] - TS_01: Test Cases/Shop Whats New FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/new_shop'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Shop Whats New.run(Shop Whats New:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690571539561.run(TempTestSuite1690571539561.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="brand-btn" href="/collections/whats-new">...</a> is not clickable at point (1055, 13). Other element would receive the click: <div class="inner">...</div>
+  (Session info: chrome=115.0.5790.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FVFVR2WQHV2D.local', ip: 'fe80:0:0:0:1825:e841:f261:c9ea%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.114, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/_g/xnhmmqtn155...}, goog:chromeOptions: {debuggerAddress: localhost:62659}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b13e0d1bacd6487a15d3a3dac8184b7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-07-29 02:12:23 - [TEST_SUITE][FAILED] - TS_01: Test Cases/Shop Whats New FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/new_shop'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Shop Whats New.run(Shop Whats New:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1690571539561.run(TempTestSuite1690571539561.groovy:36)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="brand-btn" href="/collections/whats-new">...</a> is not clickable at point (1055, 13). Other element would receive the click: <div class="inner">...</div>
+  (Session info: chrome=115.0.5790.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'FVFVR2WQHV2D.local', ip: 'fe80:0:0:0:1825:e841:f261:c9ea%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.1', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.114, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /var/folders/_g/xnhmmqtn155...}, goog:chromeOptions: {debuggerAddress: localhost:62659}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b13e0d1bacd6487a15d3a3dac8184b7
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,86 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_01,Chrome 115.0.0.0,,,2023-07-29 02:12:23,2023-07-29 02:17:29,5m - 5.829s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 115.0.0.0,,,2023-07-29 02:12:24,2023-07-29 02:13:11,46.872s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-29 02:12:24,2023-07-29 02:12:30,5.916s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-29 02:12:30,2023-07-29 02:12:31,0.443s,PASSED
+"navigateToUrl(""https://crane-brothers.com/"")",Chrome 115.0.0.0,,,2023-07-29 02:12:31,2023-07-29 02:12:34,2.965s,PASSED
+"click(findTestObject(""Menu_Account""))",Chrome 115.0.0.0,,,2023-07-29 02:12:34,2023-07-29 02:12:52,18.247s,PASSED
+"setText(findTestObject(""email_login""), ""miancloud@gmail.com"")",Chrome 115.0.0.0,,,2023-07-29 02:12:52,2023-07-29 02:13:06,14.205s,PASSED
+"setEncryptedText(findTestObject(""password_login""), ""y99X49qQ/aTapx2EjkpmCw=="")",Chrome 115.0.0.0,,,2023-07-29 02:13:06,2023-07-29 02:13:07,0.820s,PASSED
+"click(findTestObject(""login_button""))",Chrome 115.0.0.0,,,2023-07-29 02:13:07,2023-07-29 02:13:09,2.215s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-29 02:13:09,2023-07-29 02:13:11,1.481s,PASSED
+,,,,,,,
+Test Cases/Logout,Chrome 115.0.0.0,,,2023-07-29 02:13:11,2023-07-29 02:13:58,47.538s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-29 02:13:11,2023-07-29 02:13:15,3.677s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-29 02:13:15,2023-07-29 02:13:15,0.434s,PASSED
+"navigateToUrl(""https://crane-brothers.com/"")",Chrome 115.0.0.0,,,2023-07-29 02:13:15,2023-07-29 02:13:18,2.907s,PASSED
+"click(findTestObject(""Menu_Account""))",Chrome 115.0.0.0,,,2023-07-29 02:13:18,2023-07-29 02:13:37,19.096s,PASSED
+"setText(findTestObject(""email_login""), ""miancloud@gmail.com"")",Chrome 115.0.0.0,,,2023-07-29 02:13:37,2023-07-29 02:13:50,13.269s,PASSED
+"setEncryptedText(findTestObject(""password_login""), ""y99X49qQ/aTapx2EjkpmCw=="")",Chrome 115.0.0.0,,,2023-07-29 02:13:50,2023-07-29 02:13:51,0.531s,PASSED
+"click(findTestObject(""login_button""))",Chrome 115.0.0.0,,,2023-07-29 02:13:51,2023-07-29 02:13:53,2.277s,PASSED
+"click(findTestObject(""logout_button""))",Chrome 115.0.0.0,,,2023-07-29 02:13:53,2023-07-29 02:13:57,3.552s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-29 02:13:57,2023-07-29 02:13:58,1.553s,PASSED
+,,,,,,,
+Test Cases/Cart,Chrome 115.0.0.0,,,2023-07-29 02:13:58,2023-07-29 02:14:15,16.715s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-29 02:13:58,2023-07-29 02:14:02,3.166s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-29 02:14:02,2023-07-29 02:14:02,0.426s,PASSED
+"navigateToUrl(""https://crane-brothers.com/"")",Chrome 115.0.0.0,,,2023-07-29 02:14:02,2023-07-29 02:14:05,2.691s,PASSED
+"click(findTestObject(""menu_cart""))",Chrome 115.0.0.0,,,2023-07-29 02:14:05,2023-07-29 02:14:10,4.839s,PASSED
+"click(findTestObject(""keep_shopping""))",Chrome 115.0.0.0,,,2023-07-29 02:14:10,2023-07-29 02:14:14,3.947s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-29 02:14:14,2023-07-29 02:14:15,1.384s,PASSED
+,,,,,,,
+Test Cases/Channge currency,Chrome 115.0.0.0,,,2023-07-29 02:14:15,2023-07-29 02:14:30,15.179s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-29 02:14:15,2023-07-29 02:14:18,3.064s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-29 02:14:18,2023-07-29 02:14:19,0.435s,PASSED
+"navigateToUrl(""https://crane-brothers.com/"")",Chrome 115.0.0.0,,,2023-07-29 02:14:19,2023-07-29 02:14:23,4.704s,PASSED
+"click(findTestObject(""menu_currency""))",Chrome 115.0.0.0,,,2023-07-29 02:14:23,2023-07-29 02:14:25,1.780s,PASSED
+"click(findTestObject(""usd""))",Chrome 115.0.0.0,,,2023-07-29 02:14:25,2023-07-29 02:14:29,3.519s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-29 02:14:29,2023-07-29 02:14:30,1.455s,PASSED
+,,,,,,,
+Test Cases/Add a new address,Chrome 115.0.0.0,,,2023-07-29 02:14:30,2023-07-29 02:15:11,40.438s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-29 02:14:30,2023-07-29 02:14:35,4.334s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-29 02:14:35,2023-07-29 02:14:35,0.422s,PASSED
+"navigateToUrl(""https://crane-brothers.com/"")",Chrome 115.0.0.0,,,2023-07-29 02:14:35,2023-07-29 02:14:37,2.387s,PASSED
+"click(findTestObject(""Menu_Account""))",Chrome 115.0.0.0,,,2023-07-29 02:14:37,2023-07-29 02:14:57,19.106s,PASSED
+"setText(findTestObject(""email_login""), ""miancloud@gmail.com"")",Chrome 115.0.0.0,,,2023-07-29 02:14:57,2023-07-29 02:14:59,1.959s,PASSED
+"setEncryptedText(findTestObject(""password_login""), ""y99X49qQ/aTapx2EjkpmCw=="")",Chrome 115.0.0.0,,,2023-07-29 02:14:59,2023-07-29 02:14:59,0.570s,PASSED
+"click(findTestObject(""login_button""))",Chrome 115.0.0.0,,,2023-07-29 02:14:59,2023-07-29 02:15:01,2.346s,PASSED
+"click(findTestObject(""view_address""))",Chrome 115.0.0.0,,,2023-07-29 02:15:01,2023-07-29 02:15:04,2.399s,PASSED
+"click(findTestObject(""Add_new_address""))",Chrome 115.0.0.0,,,2023-07-29 02:15:04,2023-07-29 02:15:06,2.093s,PASSED
+"setText(findTestObject(""first_name""), ""test"")",Chrome 115.0.0.0,,,2023-07-29 02:15:06,2023-07-29 02:15:07,0.695s,PASSED
+"setText(findTestObject(""lastname""), ""test"")",Chrome 115.0.0.0,,,2023-07-29 02:15:07,2023-07-29 02:15:07,0.617s,PASSED
+"click(findTestObject(""add_address_button""))",Chrome 115.0.0.0,,,2023-07-29 02:15:07,2023-07-29 02:15:09,1.756s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-29 02:15:09,2023-07-29 02:15:11,1.493s,PASSED
+,,,,,,,
+Test Cases/Shop Whats New,Chrome 115.0.0.0,,,2023-07-29 02:15:57,2023-07-29 02:16:38,41.541s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-29 02:15:57,2023-07-29 02:16:03,6.540s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-29 02:16:03,2023-07-29 02:16:04,0.478s,PASSED
+"navigateToUrl(""https://crane-brothers.com/"")",Chrome 115.0.0.0,,,2023-07-29 02:16:04,2023-07-29 02:16:06,2.432s,PASSED
+"scrollToElement(findTestObject(""new_shop""), 2)",Chrome 115.0.0.0,,,2023-07-29 02:16:06,2023-07-29 02:16:21,14.873s,PASSED
+"click(findTestObject(""new_shop""))",Chrome 115.0.0.0,,,2023-07-29 02:16:21,2023-07-29 02:16:31,9.779s,PASSED
+"click(findTestObject(""filter""))",Chrome 115.0.0.0,,,2023-07-29 02:16:31,2023-07-29 02:16:32,1.374s,PASSED
+"click(findTestObject(""navy""))",Chrome 115.0.0.0,,,2023-07-29 02:16:32,2023-07-29 02:16:33,0.767s,PASSED
+"click(findTestObject(""sort_by""))",Chrome 115.0.0.0,,,2023-07-29 02:16:33,2023-07-29 02:16:34,0.866s,PASSED
+"click(findTestObject(""best_selling""))",Chrome 115.0.0.0,,,2023-07-29 02:16:34,2023-07-29 02:16:36,2.630s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-29 02:16:36,2023-07-29 02:16:38,1.670s,PASSED
+,,,,,,,
+Test Cases/Search,Chrome 115.0.0.0,,,2023-07-29 02:16:38,2023-07-29 02:16:55,16.341s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-29 02:16:39,2023-07-29 02:16:42,3.364s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-29 02:16:42,2023-07-29 02:16:42,0.476s,PASSED
+"navigateToUrl(""https://crane-brothers.com/"")",Chrome 115.0.0.0,,,2023-07-29 02:16:42,2023-07-29 02:16:46,3.229s,PASSED
+"click(findTestObject(""menu_search""))",Chrome 115.0.0.0,,,2023-07-29 02:16:46,2023-07-29 02:16:49,3.097s,PASSED
+"setText(findTestObject(""search_bar""), ""T-shirt"")",Chrome 115.0.0.0,,,2023-07-29 02:16:49,2023-07-29 02:16:50,0.833s,PASSED
+"click(findTestObject(""search_button""))",Chrome 115.0.0.0,,,2023-07-29 02:16:50,2023-07-29 02:16:53,3.555s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-29 02:16:53,2023-07-29 02:16:55,1.366s,PASSED
+,,,,,,,
+Test Cases/Add to cart,Chrome 115.0.0.0,,,2023-07-29 02:16:55,2023-07-29 02:17:29,34.077s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-07-29 02:16:55,2023-07-29 02:16:58,3.234s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-07-29 02:16:58,2023-07-29 02:16:59,0.435s,PASSED
+"navigateToUrl(""https://crane-brothers.com/"")",Chrome 115.0.0.0,,,2023-07-29 02:16:59,2023-07-29 02:17:01,2.335s,PASSED
+"click(findTestObject(""menu_search""))",Chrome 115.0.0.0,,,2023-07-29 02:17:01,2023-07-29 02:17:15,14.442s,PASSED
+"setText(findTestObject(""search_bar""), ""T-shirt"")",Chrome 115.0.0.0,,,2023-07-29 02:17:15,2023-07-29 02:17:16,0.809s,PASSED
+"click(findTestObject(""search_button""))",Chrome 115.0.0.0,,,2023-07-29 02:17:16,2023-07-29 02:17:20,3.642s,PASSED
+"click(findTestObject(""first_product""))",Chrome 115.0.0.0,,,2023-07-29 02:17:20,2023-07-29 02:17:23,3.715s,PASSED
+"click(findTestObject(""add_to_cart_button""))",Chrome 115.0.0.0,,,2023-07-29 02:17:23,2023-07-29 02:17:27,3.636s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-07-29 02:17:27,2023-07-29 02:17:29,1.452s,PASSED

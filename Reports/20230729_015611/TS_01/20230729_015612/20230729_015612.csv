@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_01,,,,2023-07-29 01:56:16,2023-07-29 01:56:16,0.759s,ERROR
+,,,,,,,
+Test Cases/Login,,,,2023-07-29 01:56:16,2023-07-29 01:56:16,0.004s,ERROR
+,,,,,,,
+Test Cases/Logout,,,,2023-07-29 01:56:16,2023-07-29 01:56:16,0.012s,ERROR
+,,,,,,,
+Test Cases/Cart,,,,2023-07-29 01:56:16,2023-07-29 01:56:16,0.003s,ERROR
+,,,,,,,
+Test Cases/Channge currency,,,,2023-07-29 01:56:16,2023-07-29 01:56:16,0.004s,ERROR
+,,,,,,,
+Test Cases/Add a new address,,,,2023-07-29 01:56:16,2023-07-29 01:56:16,0.002s,ERROR
+,,,,,,,
+Test Cases/Shop Whats New,,,,2023-07-29 01:56:16,2023-07-29 01:56:16,0.002s,ERROR
+,,,,,,,
+Test Cases/Search,,,,2023-07-29 01:56:16,2023-07-29 01:56:16,0.003s,ERROR
+,,,,,,,
+Test Cases/Add to cart,,,,2023-07-29 01:56:16,2023-07-29 01:56:16,0.002s,ERROR
