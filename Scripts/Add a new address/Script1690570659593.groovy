@@ -39,6 +39,9 @@ WebUI.setText(findTestObject('first_name'), 'test')
 
 WebUI.setText(findTestObject('lastname'), 'test')
 
+WebUI.takeScreenshotAsCheckpoint('address')
+
 WebUI.click(findTestObject('add_address_button'))
 
 WebUI.closeBrowser()
+
