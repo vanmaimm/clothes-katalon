@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS visual,Chrome 115.0.0.0,,,2023-08-03 14:40:09,2023-08-03 14:40:39,29.688s,PASSED
+,,,,,,,
+Test Cases/Add a new address,Chrome 115.0.0.0,,,2023-08-03 14:40:09,2023-08-03 14:40:39,29.483s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-03 14:40:09,2023-08-03 14:40:12,2.798s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-03 14:40:12,2023-08-03 14:40:13,0.445s,PASSED
+"navigateToUrl(""https://crane-brothers.com/"")",Chrome 115.0.0.0,,,2023-08-03 14:40:13,2023-08-03 14:40:15,2.212s,PASSED
+"click(findTestObject(""Menu_Account""))",Chrome 115.0.0.0,,,2023-08-03 14:40:15,2023-08-03 14:40:24,9.165s,PASSED
+"setText(findTestObject(""email_login""), ""miancloud@gmail.com"")",Chrome 115.0.0.0,,,2023-08-03 14:40:24,2023-08-03 14:40:26,2.279s,PASSED
+"setEncryptedText(findTestObject(""password_login""), ""y99X49qQ/aTapx2EjkpmCw=="")",Chrome 115.0.0.0,,,2023-08-03 14:40:26,2023-08-03 14:40:27,0.504s,PASSED
+"click(findTestObject(""login_button""))",Chrome 115.0.0.0,,,2023-08-03 14:40:27,2023-08-03 14:40:29,1.994s,PASSED
+"click(findTestObject(""view_address""))",Chrome 115.0.0.0,,,2023-08-03 14:40:29,2023-08-03 14:40:32,2.886s,PASSED
+"click(findTestObject(""Add_new_address""))",Chrome 115.0.0.0,,,2023-08-03 14:40:32,2023-08-03 14:40:33,1.856s,PASSED
+"setText(findTestObject(""first_name""), ""test"")",Chrome 115.0.0.0,,,2023-08-03 14:40:33,2023-08-03 14:40:35,1.092s,PASSED
+"setText(findTestObject(""lastname""), ""test"")",Chrome 115.0.0.0,,,2023-08-03 14:40:35,2023-08-03 14:40:35,0.630s,PASSED
+"takeScreenshotAsCheckpoint(""address"")",Chrome 115.0.0.0,,,2023-08-03 14:40:35,2023-08-03 14:40:37,1.417s,PASSED
+"click(findTestObject(""add_address_button""))",Chrome 115.0.0.0,,,2023-08-03 14:40:37,2023-08-03 14:40:38,1.649s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-03 14:40:38,2023-08-03 14:40:39,0.263s,PASSED

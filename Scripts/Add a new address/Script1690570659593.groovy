@@ -39,7 +39,7 @@ WebUI.setText(findTestObject('first_name'), 'test')
 
 WebUI.setText(findTestObject('lastname'), 'test')
 
-WebUI.takeScreenshotAsCheckpoint('address')
+WebUI.takeScreenshotAsCheckpoint('addressnew')
 
 WebUI.click(findTestObject('add_address_button'))
 

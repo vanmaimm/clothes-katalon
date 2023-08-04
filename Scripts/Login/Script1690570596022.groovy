@@ -25,12 +25,15 @@ WebUI.navigateToUrl('https://crane-brothers.com/')
 
 WebUI.click(findTestObject('Menu_Account'))
 
+WebUI.takeElementScreenshotAsCheckpoint('login_form', findTestObject('LoginObject'))
+
 WebUI.setText(findTestObject('email_login'), 'miancloud@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('password_login'), 'y99X49qQ/aTapx2EjkpmCw==')
 
+WebUI.takeElementScreenshotAsCheckpoint('login_with_acc', findTestObject('LoginObject'))
+
 WebUI.click(findTestObject('login_button'))
 
 WebUI.closeBrowser()
-
 

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS visual,Chrome 115.0.0.0,,,2023-08-04 09:26:37,2023-08-04 09:26:59,21.343s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 115.0.0.0,,,2023-08-04 09:26:38,2023-08-04 09:26:59,21.137s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-04 09:26:38,2023-08-04 09:26:40,2.563s,PASSED
+maximizeWindow(),Chrome 115.0.0.0,,,2023-08-04 09:26:40,2023-08-04 09:26:41,0.431s,PASSED
+"navigateToUrl(""https://crane-brothers.com/"")",Chrome 115.0.0.0,,,2023-08-04 09:26:41,2023-08-04 09:26:45,3.776s,PASSED
+"click(findTestObject(""Menu_Account""))",Chrome 115.0.0.0,,,2023-08-04 09:26:45,2023-08-04 09:26:50,5.409s,PASSED
+"takeElementScreenshotAsCheckpoint(""login_form"", findTestObject(""LoginObject""))",Chrome 115.0.0.0,,,2023-08-04 09:26:50,2023-08-04 09:26:54,4.068s,PASSED
+"setText(findTestObject(""email_login""), ""miancloud@gmail.com"")",Chrome 115.0.0.0,,,2023-08-04 09:26:54,2023-08-04 09:26:55,0.885s,PASSED
+"setEncryptedText(findTestObject(""password_login""), ""y99X49qQ/aTapx2EjkpmCw=="")",Chrome 115.0.0.0,,,2023-08-04 09:26:55,2023-08-04 09:26:56,0.514s,PASSED
+"takeElementScreenshotAsCheckpoint(""login_with_acc"", findTestObject(""LoginObject""))",Chrome 115.0.0.0,,,2023-08-04 09:26:56,2023-08-04 09:26:56,0.868s,PASSED
+"click(findTestObject(""login_button""))",Chrome 115.0.0.0,,,2023-08-04 09:26:56,2023-08-04 09:26:58,2.041s,PASSED
+closeBrowser(),Chrome 115.0.0.0,,,2023-08-04 09:26:58,2023-08-04 09:26:59,0.283s,PASSED
