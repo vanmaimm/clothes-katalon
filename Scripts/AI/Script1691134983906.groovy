@@ -17,23 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://crane-brothers.com/')
-
-WebUI.click(findTestObject('Menu_Account'))
-
-WebUI.takeElementScreenshotAsCheckpoint('login_form', findTestObject('LoginObject'))
-
-WebUI.setText(findTestObject('email_login'), 'miancloud1@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('password_login'), 'y99X49qQ/aTapx2EjkpmCw==')
-
-WebUI.takeElementScreenshotAsCheckpoint('login_with_acc', findTestObject('LoginObject'))
-
-WebUI.click(findTestObject('login_button'))
-
-WebUI.closeBrowser()
-
+/* Write a Katalon Studio test case to perform the following steps.
+ * 1. Open browser to the URL stored in G_SiteURL
+ * 2. Click the make appointment button
+ * 3. Fill in the username and password fields based on the variables
+ * 4. Click the login button
+ * 5. Verify that the appointment div exists
+ * 6. Close the browser
+ * */
