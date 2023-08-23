@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Login into website
+Description: </description>
+   <name>TES-1 Login into website</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10020&quot;:[{&quot;id&quot;:1,&quot;name&quot;:&quot;TES Sprint 1&quot;,&quot;state&quot;:&quot;active&quot;,&quot;boardId&quot;:2,&quot;goal&quot;:&quot;&quot;,&quot;startDate&quot;:&quot;2023-08-23T04:43:40.257Z&quot;,&quot;endDate&quot;:&quot;2023-09-06T04:43:37.000Z&quot;}],&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|hzzzzz:&quot;},&quot;status&quot;:{&quot;id&quot;:10003,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://testkatalon.atlassian.net/&quot;,&quot;self&quot;:&quot;https://testkatalon.atlassian.net/rest/api/2/status/10003&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://testkatalon.atlassian.net/rest/api/2/project/10001&quot;,&quot;key&quot;:&quot;TES&quot;,&quot;id&quot;:10001,&quot;name&quot;:&quot;testing&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Login into website&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;myvan052k@gmail.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;My Van&quot;,&quot;self&quot;:&quot;https://testkatalon.atlassian.net/rest/api/2/user?accountId\u003d712020%3Aea8a526c-9d2e-497b-8d17-0143152e3335&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://testkatalon.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://testkatalon.atlassian.net/rest/api/2/issue/TES-1/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://testkatalon.atlassian.net/rest/api/2/issue/10000&quot;,&quot;key&quot;:&quot;TES-1&quot;,&quot;id&quot;:10000}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>cc9cf1da-5a51-4c89-bf39-5096fec583d9</testCaseGuid>
+</TestCaseEntity>

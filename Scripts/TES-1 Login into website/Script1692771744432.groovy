@@ -17,25 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://crane-brothers.com/')
-
-WebUI.click(findTestObject('Menu_Account'))
-
-WebUI.takeElementScreenshotAsCheckpoint('login_form', findTestObject('LoginObject'))
-
-WebUI.setText(findTestObject('email_login'), 'miancloud1@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('password_login'), 'y99X49qQ/aTapx2EjkpmCw==')
-
-WebUI.takeElementScreenshotAsCheckpoint('login_with_acc', findTestObject('LoginObject'))
-
-WebUI.click(findTestObject('login_button'))
-
-WebUI.verifyElementPresent(findTestObject('My Account'), 5)
-
-WebUI.closeBrowser()
-
+CucumberKW.runFeatureFile('Include/features/TES-1 Login into website.feature')
