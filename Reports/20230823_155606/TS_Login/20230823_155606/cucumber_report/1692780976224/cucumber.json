@@ -1,0 +1,83 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login with valid account",
+        "description": "",
+        "id": "login;login-with-valid-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13256586655,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on login pgae",
+            "match": {
+              "location": "AllSteps.user_is_on_login_pagee()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2064608572,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters username",
+            "match": {
+              "location": "AllSteps.user_enters_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1270616665,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters password",
+            "match": {
+              "location": "AllSteps.user_enters_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2196612911,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "AllSteps.user_click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1924445506,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User can be login successfully",
+            "match": {
+              "location": "AllSteps.user_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "/Users/vanmai/Documents/clothes-katalon/Include/features/TES-1 Login into website.feature",
+    "tags": []
+  }
+]

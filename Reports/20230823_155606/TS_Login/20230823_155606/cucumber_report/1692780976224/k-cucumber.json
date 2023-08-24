@@ -1,0 +1,89 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "BDD_TESTRUN_UUID": "4dfdc334-b9c8-4381-a7bd-36d88f768402",
+        "line": 3,
+        "name": "Login with valid account",
+        "description": "",
+        "id": "login;login-with-valid-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13256586655,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on login pgae",
+            "match": {
+              "location": "AllSteps.user_is_on_login_pagee()"
+            },
+            "keyword": "Given ",
+            "BDD_STEP_UUID": "97c32351-e615-487f-9b7d-5f42aa3638d2"
+          },
+          {
+            "result": {
+              "duration": 2064608572,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters username",
+            "match": {
+              "location": "AllSteps.user_enters_username()"
+            },
+            "keyword": "When ",
+            "BDD_STEP_UUID": "acbf2a03-70d4-4640-bd2c-649f74b1674e"
+          },
+          {
+            "result": {
+              "duration": 1270616665,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters password",
+            "match": {
+              "location": "AllSteps.user_enters_password()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "17e3c0b1-4324-47a3-8c26-fc6a41333d92"
+          },
+          {
+            "result": {
+              "duration": 2196612911,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "AllSteps.user_click_on_login()"
+            },
+            "keyword": "And ",
+            "BDD_STEP_UUID": "f629826f-9d7c-4cf5-ada1-86d62b2c0465"
+          },
+          {
+            "result": {
+              "duration": 1924445506,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User can be login successfully",
+            "match": {
+              "location": "AllSteps.user_login_successfully()"
+            },
+            "keyword": "Then ",
+            "BDD_STEP_UUID": "66d51fe8-edd1-4062-b89b-84420da17694"
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "/Users/vanmai/Documents/clothes-katalon/Include/features/TES-1 Login into website.feature",
+    "tags": []
+  }
+]

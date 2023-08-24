@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Menu_Account'))
 
 WebUI.takeElementScreenshotAsCheckpoint('login_form', findTestObject('LoginObject'))
 
-WebUI.setText(findTestObject('email_login'), 'miancloud1@gmail.com')
+WebUI.setText(findTestObject('email_login'), 'miancloud@gmail.com')
 
 WebUI.setEncryptedText(findTestObject('password_login'), 'y99X49qQ/aTapx2EjkpmCw==')
 

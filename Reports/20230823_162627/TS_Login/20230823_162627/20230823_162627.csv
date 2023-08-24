@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Login,Edge Chromium 116,,,2023-08-23 16:26:35,2023-08-23 16:27:07,31.806s,FAILED
+,,,,,,,
+Test Cases/TES-1 Login into website,Edge Chromium 116,"Summary: Login into website
+Description: ",jira-integration,2023-08-23 16:26:36,2023-08-23 16:27:07,31.559s,FAILED
+"runFeatureFile(""Include/features/TES-1 Login into website.feature"")",Edge Chromium 116,,,2023-08-23 16:26:36,2023-08-23 16:27:07,31.260s,FAILED
