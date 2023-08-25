@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Verify user can search the exist items in the system,Edge Chromium 116,,,2023-08-24 16:25:13,2023-08-24 16:26:20,1m - 6.820s,PASSED
+,,,,,,,
+Test Cases/Search,Edge Chromium 116,,,2023-08-24 16:25:13,2023-08-24 16:26:20,1m - 6.604s,PASSED
+"openBrowser("""")",Edge Chromium 116,,,2023-08-24 16:25:13,2023-08-24 16:25:17,3.195s,PASSED
+maximizeWindow(),Edge Chromium 116,,,2023-08-24 16:25:17,2023-08-24 16:25:17,0.437s,PASSED
+"navigateToUrl(""https://crane-brothers.com/"")",Edge Chromium 116,,,2023-08-24 16:25:17,2023-08-24 16:25:45,27.530s,PASSED
+"click(findTestObject(""menu_search""))",Edge Chromium 116,,,2023-08-24 16:25:45,2023-08-24 16:25:51,6.186s,PASSED
+"setText(findTestObject(""search_bar""), ""T-shirt"")",Edge Chromium 116,,,2023-08-24 16:25:51,2023-08-24 16:25:52,1.105s,PASSED
+"click(findTestObject(""search_button""))",Edge Chromium 116,,,2023-08-24 16:25:52,2023-08-24 16:26:19,27.502s,PASSED
+closeBrowser(),Edge Chromium 116,,,2023-08-24 16:26:19,2023-08-24 16:26:20,0.364s,PASSED
